@@ -1698,317 +1698,50 @@ Version:	1.0
 	box-shadow: none;
 }
 
+#placed {
+	background-image: url(images/placed_bg.jpg);
+	height: 600px;
+}
+
+#placed-card {
+	top: 60px;
+}
+
 /*=============================
 	End Testimonials CSS
 ===============================*/
 
 /*=============================
-	Events CSS
+	News and Anouncements CSS
 ===============================*/
 
-.events .single-event {
-	margin-top: 30px;
-	margin: 5px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+.nanda span {
+	color: #e7390e;
 }
 
-.events .single-event:hover {
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+.big-container {
+	padding: 20px 20px;
 }
 
-.events .single-event .head {
-	position: relative;
+.big-container hr {
+	border-top: 1px dashed #262626;
 }
 
-.events .single-event .head img {}
-
-.events .single-event .head .btn {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 100%;
-	line-height: 50px;
-	padding: 0;
-	margin: -25px 0 0 -25px;
-	color: #fff;
-	-webkit-transform: scale(3);
-	-moz-transform: scale(3);
-	transform: scale(3);
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	z-index: 35;
-}
-
-.events .single-event:hover .head .btn {
-	transform: scale(1);
-	opacity: 1;
-	visibility: visible
-}
-
-.events .single-event .head .btn:hover {
-	background: #fff;
-	color: #252525;
-}
-
-.events .single-event .head.overlay:before {
-	opacity: 0;
-	visibility: hidden;
-	z-index: 34;
-}
-
-.events .single-event:hover .head.overlay:before {
-	opacity: 0.5;
-	visibility: visible;
-}
-
-.events .event-content {
-	margin-top: 10px;
+.news {
+	border: 0.1px black solid;
 	padding: 20px;
+	max-width: 400px;
+	background-color: #00B16A;
 }
 
-.events .event-content .meta {}
-
-.events .event-content .meta span {
-	margin-right: 10px;
-	padding-right: 10px;
-	border-right: 1px solid #e6e6e6;
-	font-weight: 500;
-	display: inline-block;
-}
-
-.events .event-content .meta span:last-child {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-.events .event-content .meta span i {
-	margin-right: 5px;
-}
-
-.events .event-content h4 {
-	font-size: 18px;
-	margin: 10px 0;
-}
-
-.events .event-content h4 a {
-	color: #252525;
-	font-weight: 700;
-}
-
-.events .event-content p {}
-
-.events .event-content .btn {
-	margin-top: 20px;
-	border: 2px solid;
-	padding: 11px 32px;
-}
-
-.events .event-content .btn:hover {
-	background: transparent;
-	border-color: transparent;
-	color: #fff;
-}
-
-/* Event Nav */
-
-.events .owl-nav {
-	width: 100%;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	margin: 0;
-}
-
-.events:hover .owl-nav {
-	opacity: 1;
-	visibility: visible;
-}
-
-.events .owl-carousel .owl-nav div {
-	height: 48px;
-	width: 48px;
-	line-height: 48px;
-	top: 50%;
-	background: #666;
-	color: #fff;
-	font-size: 25px;
-	position: absolute;
-	border: none;
-	margin: 0;
-	padding: 0;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	border-radius: 100%;
-	margin-top: -24px;
-}
-
-.events .owl-carousel .owl-nav div:hover {
-	color: #fff;
-}
-
-.events .owl-carousel .owl-nav .owl-prev {
-	left: -75px;
-}
-
-.events .owl-carousel .owl-nav .owl-prev:hover {
-	left: -65px;
-}
-
-.events .owl-carousel .owl-nav .owl-next {
-	right: -75px;
-}
-
-.events .owl-carousel .owl-nav .owl-next:hover {
-	right: -65px;
-}
-
-/* Events Archive */
-
-.events.archives .single-event {
-	margin-top: 30px;
-}
-
-/* Pagination */
-
-.events.archives .pagination-main {
-	text-align: center;
-}
-
-.events.archives .pagination {
-	display: block;
-	padding-left: 0;
-	margin: 50px 0 0;
-	border-radius: 4px;
-	text-align: center;
-	display: inline-block;
-}
-
-.events.archives .pagination li {
-	float: left;
-	margin-right: 5px;
-}
-
-.events.archives .pagination li a {
-	padding: 12px 25px;
-	border: none;
-	display: block;
-	background: #f6f6f6;
-	color: #fff;
-	color: #252525;
-}
-
-.events.archives .pagination li:hover a, .events.archives .pagination li.active a {
-	color: #fff;
-}
-
-/* Event Single */
-
-.events.single {
-	padding: 60px 0 90px;
-}
-
-.events.single .single-event {
-	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-	margin-top: 30px;
-}
-
-.events.single .event-content h2 {
-	font-size: 30px;
-	margin: 5px 0 20px;
-}
-
-.events.single .event-content h2 a {
-	color: #252525;
-}
-
-.events.single .event-content p {
-	margin-bottom: 30px;
-}
-
-.events.single .event-content img {
-	margin-bottom: 30px;
-}
-
-/* Events Meta */
-
-.events.single .book-now {
-	overflow: hidden;
-}
-
-.events.single .book-now .button {
-	float: left;
-}
-
-.events.single .book-now .button .btn {
-	margin-top: 0px;
-}
-
-.events.single .social {
-	float: right;
-}
-
-.events.single .social li {
-	display: inline-block;
-	margin-right: 5px;
-}
-
-.events.single .social li:last-child {
-	margin: 0;
-}
-
-.events.single .social li a {
-	width: 32px;
-	height: 32px;
-	line-height: 32px;
-	display: block;
-	border: 1px solid #e6e6e6;
-	text-align: center;
-	color: #252525;
-	border-radius: 100%;
-}
-
-.events.single .social li:hover a {
-	color: #fff;
-	border-color: transparent;
-}
-
-/* Slider Meta */
-
-.events.single .owl-carousel .owl-nav div {
-	background: #fff;
-	color: #252525;
-}
-
-.events.single .owl-carousel .owl-nav div:hover {
-	color: #fff;
-}
-
-.events.single .owl-carousel .owl-nav .owl-prev {
-	left: 10px;
-}
-
-.events.single .owl-carousel .owl-nav .owl-next {
-	right: 10px;
+.anouncements {
+	border: 0.1px black solid;
+	padding: 20px;
+	background-color: #00B16A;
 }
 
 /*=============================
-	End Events CSS
+	End News and Anouncements CSS
 ===============================*/
 
 /*=============================
@@ -2626,7 +2359,7 @@ Version:	1.0
 	margin-bottom: 20px;
 }
 
-.learnedu-sidebar .single-widget.categories ul {}
+/* .learnedu-sidebar .single-widget.categories ul {} */
 
 .learnedu-sidebar .single-widget.categories ul li {
 	margin-bottom: 15px;
@@ -3438,6 +3171,13 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 0;
+}
+
+.footer .but button {
+	padding: 20px;
+	font-size: 16px;
+	background-color: #df4018;
+	border: none;
 }
 
 .footer::before {
