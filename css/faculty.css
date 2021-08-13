@@ -1,6 +1,7 @@
 #faculty{
     margin-top:50px ;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .card{
@@ -8,6 +9,7 @@ width: 15rem;
 padding:10px; 
 align-items: center;
 border: none;
+margin-bottom: 50px;
 }
 .card:hover{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
