@@ -1,35 +1,37 @@
-#faculty{
-    margin-top:50px ;
+#faculty {
+    margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
 }
 
-.card{
-width: 15rem;
-padding:10px; 
-align-items: center;
-border: none;
-margin-bottom: 50px;
+.card {
+    width: 15rem;
+    padding: 10px;
+    align-items: center;
+    border: none;
+    margin-bottom: 50px;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     transition: .3s;
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 50%;
-    height: 150px; 
+    height: 150px;
     width: 150px;
 }
 
-.text-center{
+.text-center {
     padding: 25px 0px 20px 0px;
     /* margin-bottom: 10px; */
 }
-.text-heading-color{
-    color: #e7390e ;
-    
 
+.text-heading-color {
+    color: #e7390e;
 }
-.designation{
+
+.designation {
     color: #72706e;
 }
