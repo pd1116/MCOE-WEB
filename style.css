@@ -2536,11 +2536,14 @@ Version:	1.0
 
 .about-us {
 	background: #fff;
-	padding: 60px 0 90px;
+	padding: 60px 0 80px;
 }
-
+#aboutdept{
+	padding-top: 0px;
+}
 .about-us .single-image, .about-us .about-text {
 	margin-top: 30px;
+	
 }
 
 .about-us .single-image {
