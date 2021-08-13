@@ -188,6 +188,14 @@
 	.header .single-widget.button, .header .search-bar, .header .header-widget, .header .header-menu {
 		display: none;
 	}
+	/* news and anouncements */
+	.big-container marquee li {
+		font-size: 14px;
+	}
+	.anouncements {
+		height: 70px;
+	}
+	/* news and anouncements */
 	/* Header Sticky */
 	.header.sticky .header-inner {
 		position: fixed;

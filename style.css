@@ -1719,25 +1719,18 @@ Version:	1.0
 	color: #e7390e;
 }
 
-.big-container {
-	padding: 20px 20px;
+.big-container marquee li {
+	font-size: 18px;
 }
 
 .big-container hr {
 	border-top: 1px dashed #262626;
 }
 
-.news {
-	border: 0.1px black solid;
-	padding: 20px;
-	max-width: 400px;
-	background-color: #00B16A;
-}
-
 .anouncements {
 	border: 0.1px black solid;
-	padding: 20px;
-	background-color: #00B16A;
+	background-color: #ff9797;
+	height: 80px;
 }
 
 /*=============================
