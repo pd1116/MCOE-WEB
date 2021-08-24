@@ -2538,6 +2538,8 @@ Version:	1.0
 /*=============================
 	About US CSS
 ===============================*/
+
+
 #cssmenurow {
   display: flex;
   justify-content: center;
@@ -2676,14 +2678,20 @@ a,
 }
 #abt-dept-text h2{
   margin-bottom: 20px;
+  text-align: center;
 }
 /* .about-us .single-image, .about-us .about-text {
 	margin-top: 30px;
 	
 } */
-p{
-  margin: 10px;
+/* .hed06{
+  background:transparent;
+} */
+#Labs , .mission , p , .points{
+  margin-left: 10px;
+   color: #000;
 }
+
 .about-text h2 {
   background: rgb(231, 57, 14);
   margin-bottom: 20px;
