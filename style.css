@@ -2532,7 +2532,6 @@ Version:	1.0
 	About US CSS
 ===============================*/
 
-
 #cssmenurow {
   display: flex;
   justify-content: center;
@@ -2597,7 +2596,7 @@ a, #cssmenu li, #cssmenu ul {
 
 #cssmenu>ul>li>a {
   display: block;
-  color: rgb(231, 57, 14);
+  color: crimson;
   outline: 0;
   padding: 10px;
 }
@@ -2628,7 +2627,7 @@ a, #cssmenu li, #cssmenu ul {
 }
 
 #cssmenu ul>li a.menuAct, #cssmenu ul>li a:hover {
-  background: rgb(231, 57, 14);
+  background: crimson;
 }
 
 #cssmenu>ul>li a {
@@ -2700,7 +2699,6 @@ a, #cssmenu li, #cssmenu ul {
 	
 } */
 
-
 p {
   margin: 10px;
 }
@@ -2709,40 +2707,46 @@ p {
   height: 555px;
 }
 
-
 /* .hed06{
   background:transparent;
 } */
-#Labs , .mission , p , .points{
+
+#Labs, .mission, p, .points {
   margin-left: 10px;
-   color: #000;
+  color: #000;
 }
 
-
 .about-text h2 {
-  background: rgb(231, 57, 14);
+  background: crimson;
+  margin-bottom: 20px;
+  color: #FFF;
+  padding: 10px;
+}
+
+.about-text1 h2 {
+  background: crimson;
   margin-bottom: 20px;
 }
 
-.about-us .single-image {
+.about-us1 .single-image {
   position: relative;
 }
 
-.about-us .single-image:before {
+.about-us1 .single-image:before {
   opacity: 0;
   visibility: hidden;
 }
 
-.about-us .single-image:hover:before {
+.about-us1 .single-image:hover:before {
   opacity: 0.6;
   visibility: visible;
 }
 
-.about-us .single-image img {
+.about-us1 .single-image img {
   width: 100%;
 }
 
-.about-us .single-image .btn {
+.about-us1 .single-image .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2765,42 +2769,42 @@ p {
   transition: all 0.3s ease;
 }
 
-.about-us .single-image:hover .btn {
+.about-us1 .single-image:hover .btn {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
 }
 
-.about-us .single-image .btn:hover {
+.about-us1 .single-image .btn:hover {
   color: #fff;
 }
 
-.about-us {
+.about-us1 {
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 20px;
   position: relative;
 }
 
-.about-text h2 {
+.about-text1 h2 {
   font-size: 30px;
   margin-bottom: 0px;
   padding: 10px;
   position: relative;
 }
 
-.about-us .about-text h6 {
+.about-us1 .about-text1 h6 {
   font-size: 20px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }
 
-.about-us .about-text h4 {
+.about-us1 .about-text1 h4 {
   margin-top: 20px;
 }
 
-.about-us .about-text h2:before {
+.about-us1 .about-text1 h2:before {
   position: absolute;
   left: 0;
   width: 60px;
@@ -2808,23 +2812,23 @@ p {
   content: "";
 }
 
-.about-us .about-text {
+.about-us1 .about-text1 {
   line-height: 2;
 }
 
-.about-us .about-text p:last-child {
+.about-us1 .about-text1 p:last-child {
   margin: 0;
 }
 
-.about-us .about-text .button {
+.about-us1 .about-text1 .button {
   margin-top: 30px;
 }
 
-.about-us .about-text .btn {
+.about-us1 .about-text1 .btn {
   color: #fff;
 }
 
-.about-us .about-text .btn:before {
+.about-us1 .about-text1 .btn:before {
   background: #252525;
 }
 
@@ -3351,7 +3355,7 @@ h1 {
 }
 
 .mail-success .mail h2 .primary {
-  color: #00b16a;
+  color: crimson;
 }
 
 .mail-success .mail h2 .normal {
@@ -3372,7 +3376,7 @@ h1 {
 }
 
 .mail-success .mail .btn:before {
-  background: #00b16a;
+  background: crimson;
 }
 
 /*======================================
@@ -3393,8 +3397,8 @@ h1 {
 
 .footer .but button {
   padding: 20px;
-  font-size: 16px;
-  background-color: #df4018;
+  font-size: 14px;
+  background-color: crimson;
   border: none;
 }
 
