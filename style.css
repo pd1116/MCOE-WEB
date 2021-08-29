@@ -41,6 +41,18 @@ Version:	1.0
 /*===============================
 	Header CSS 
 =================================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+* {
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  * {
+    font-size: 14px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
 
 .header {
   background-color: #fff;
@@ -199,7 +211,8 @@ Version:	1.0
   text-shadow: none;
 }
 
-.header .nav li:hover a, .header .nav li.active a {
+.header .nav li:hover a,
+.header .nav li.active a {
   color: #fff;
 }
 
@@ -580,7 +593,8 @@ Version:	1.0
   padding: 0;
 }
 
-.enroll .form-group input:hover, .enroll .form-group textarea:hover {
+.enroll .form-group input:hover,
+.enroll .form-group textarea:hover {
   padding-left: 15px;
 }
 
@@ -628,7 +642,8 @@ Version:	1.0
   font-size: 32px;
 }
 
-.enroll .section-title h2:before, .enroll .section-title h2:after {
+.enroll .section-title h2:before,
+.enroll .section-title h2:after {
   display: none;
 }
 
@@ -907,7 +922,8 @@ Version:	1.0
   color: #252525;
 }
 
-.courses.archives .pagination li:hover a, .courses.archives .pagination li.active a {
+.courses.archives .pagination li:hover a,
+.courses.archives .pagination li.active a {
   color: #fff;
 }
 
@@ -1228,7 +1244,9 @@ Version:	1.0
   padding: 10px;
 }
 
-.filter li a:hover, .filter li a:focus, .filter li a.active {
+.filter li a:hover,
+.filter li a:focus,
+.filter li a.active {
   background-color: rgb(231, 57, 14);
   color: #fff;
   border-radius: 5px;
@@ -1294,7 +1312,8 @@ Version:	1.0
   right: 10px;
 }
 
-.team .single-team:hover .team-hover, .team .single-team.active .team-hover {
+.team .single-team:hover .team-hover,
+.team .single-team.active .team-hover {
   transform: scale(1);
   opacity: 1;
   visibility: visible;
@@ -1462,7 +1481,8 @@ Version:	1.0
   padding: 60px 0 90px;
 }
 
-.team-details .member-detail, .team-details .detail-content {
+.team-details .member-detail,
+.team-details .detail-content {
   margin-top: 30px;
 }
 
@@ -1582,7 +1602,8 @@ Version:	1.0
   background-repeat: no-repeat;
 }
 
-.testimonials .section-title h2, .testimonials .section-title p {
+.testimonials .section-title h2,
+.testimonials .section-title p {
   color: #fff;
 }
 
@@ -1622,7 +1643,8 @@ Version:	1.0
   margin: 35px 0;
 }
 
-.testimonials .main-content:before, .testimonials .main-content:after {
+.testimonials .main-content:before,
+.testimonials .main-content:after {
   position: absolute;
   font-family: "FontAwesome";
   font-size: 32px;
@@ -2069,7 +2091,8 @@ Version:	1.0
   color: #252525;
 }
 
-.blog.b-archives .pagination li:hover a, .blog.b-archives .pagination li.active a {
+.blog.b-archives .pagination li:hover a,
+.blog.b-archives .pagination li.active a {
   color: #fff;
 }
 
@@ -2260,7 +2283,8 @@ Version:	1.0
   border: 1px solid #e7e7e7;
 }
 
-.blog.b-archives.single .form-group input:hover, .blog.b-archives.single .form-group textarea:hover {
+.blog.b-archives.single .form-group input:hover,
+.blog.b-archives.single .form-group textarea:hover {
   padding-left: 25px;
 }
 
@@ -2537,7 +2561,8 @@ Version:	1.0
   justify-content: center;
 }
 
-#cssmenu, #cssmenu {
+#cssmenu,
+#cssmenu {
   margin: 0;
   padding: 10px;
   border: 0;
@@ -2550,7 +2575,9 @@ Version:	1.0
   width: 300px;
 }
 
-a, #cssmenu li, #cssmenu ul {
+a,
+#cssmenu li,
+#cssmenu ul {
   margin: 0;
   padding: 5px;
   border: 0;
@@ -2585,35 +2612,37 @@ a, #cssmenu li, #cssmenu ul {
   background: #f8f1ee;
 }
 
-#cssmenu>ul>li {
+#cssmenu > ul > li {
   cursor: pointer;
   border-bottom: 1px solid #ccc;
 }
 
-#cssmenu>ul>li:default {
+#cssmenu > ul > li:default {
   border-bottom: 0 solid #3e3d3c;
 }
 
-#cssmenu>ul>li>a {
+#cssmenu > ul > li > a {
   display: block;
   color: crimson;
   outline: 0;
   padding: 10px;
 }
 
-#cssmenu>ul>li>a:active, #cssmenu>ul>li>a:focus, #cssmenu>ul>li>a:hover {
+#cssmenu > ul > li > a:active,
+#cssmenu > ul > li > a:focus,
+#cssmenu > ul > li > a:hover {
   background: rgb(231, 57, 14);
   color: #fff;
 }
 
-#cssmenu>ul>li>ul>li>ul>li>a {
+#cssmenu > ul > li > ul > li > ul > li > a {
   font-size: 12px;
   display: block;
   color: #fff;
   outline: 0;
 }
 
-#cssmenu>ul>li>ul>li>ul>li>a i {
+#cssmenu > ul > li > ul > li > ul > li > a i {
   color: #fff;
 }
 
@@ -2626,20 +2655,21 @@ a, #cssmenu li, #cssmenu ul {
   display: block !important;
 }
 
-#cssmenu ul>li a.menuAct, #cssmenu ul>li a:hover {
+#cssmenu ul > li a.menuAct,
+#cssmenu ul > li a:hover {
   background: crimson;
 }
 
-#cssmenu>ul>li a {
+#cssmenu > ul > li a {
   padding: 10px;
 }
 
-#cssmenu>ul>li.active a {
+#cssmenu > ul > li.active a {
   color: #fff;
   background: rgb(231, 57, 14);
 }
 
-#cssmenu>ul>li.has-sub>a:after {
+#cssmenu > ul > li.has-sub > a:after {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -2647,7 +2677,7 @@ a, #cssmenu li, #cssmenu ul {
   border-left: 5px solid #fff;
 }
 
-#cssmenu>ul>li.has-sub.active>a:after {
+#cssmenu > ul > li.has-sub.active > a:after {
   right: 14px;
   top: 12px;
   border: 5px solid transparent;
@@ -2699,8 +2729,16 @@ a, #cssmenu li, #cssmenu ul {
 	
 } */
 
+#underline {
+  width: 50px;
+  background: crimson;
+  height: 2px;
+  margin-bottom: 1rem;
+}
 p {
+  line-height: 2.3;
   margin: 10px;
+  padding-bottom: 20px;
 }
 
 .myChart {
@@ -2710,8 +2748,14 @@ p {
 /* .hed06{
   background:transparent;
 } */
-
-#Labs, .mission, p, .points {
+#bullets {
+  margin-right: 5px;
+  color: crimson;
+}
+.mission,
+p,
+.points {
+  text-align: start;
   margin-left: 10px;
   color: #000;
 }
@@ -2719,13 +2763,14 @@ p {
 .about-text h2 {
   background: crimson;
   margin-bottom: 20px;
-  color: #FFF;
+  color: #fff;
   padding: 10px;
 }
 
 .about-text1 h2 {
   background: crimson;
   margin-bottom: 20px;
+  color: white;
 }
 
 .about-us1 .single-image {
@@ -2801,7 +2846,8 @@ p {
 }
 
 .about-us1 .about-text1 h4 {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about-us1 .about-text1 h2:before {
@@ -3295,7 +3341,8 @@ h1 {
   font-size: 15px;
 }
 
-.contact .form-head .form-group input:hover, .contact .form-head .form-group textarea:hover {
+.contact .form-head .form-group input:hover,
+.contact .form-head .form-group textarea:hover {
   padding-left: 25px;
 }
 
@@ -3405,7 +3452,8 @@ h1 {
   opacity: 0.9;
 }
 
-.footer a, .footer p {
+.footer a,
+.footer p {
   color: #eee;
   font-weight: 400;
 }
