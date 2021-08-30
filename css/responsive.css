@@ -369,3 +369,29 @@
 		margin-top: 10px;
 	}
 }
+
+
+/* Infrastructure Start */
+
+@media (max-width:576px) {
+	
+#labs1{
+	flex-direction: column-reverse;
+}
+}
+@media (max-width: 768px) {
+	
+#labs1{
+	flex-direction: column-reverse;
+}
+
+}
+/* @media (max-width: 991px) {
+	
+.about-lab p{
+	font-size: 13px;
+}
+
+} */
+
+/* Infrastructure End*/

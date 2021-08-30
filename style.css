@@ -3655,3 +3655,35 @@ h1 {
 /*=============================
 	End Footer CSS
 ===============================*/
+
+/*  Infrastructure Start  */
+#infra-section{
+  padding: 70px 0px;
+}
+.single-image{
+  height: fit-content;
+}
+#iframe{
+  text-align: center;
+  padding: 30px;
+}
+#labs, #labs1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.about-lab p{
+  line-height: 1.5;
+}
+
+.detail-box{
+  box-shadow: 0 3px 10px rgb(128 128 128/ 0.2);
+  margin-bottom: 30px;
+padding-bottom: 30px;
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+}
+/*  Infrastructure End  */
