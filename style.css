@@ -3030,7 +3030,10 @@ p,
 /*=============================
 	App Club Logo CSS
 ===============================*/
-
+#aboutAC h3{
+  text-align: center;
+  margin: 20px;
+}
 #club-logo img {
   width: 400px;
   height: 300px;
@@ -3044,8 +3047,32 @@ p,
   margin-top: 5%;
   margin-left: 30%;
 }
+#appclub-heading{
+  
+  margin-bottom: 30px;
+ display: flex;
+justify-content: center;
+}
 
-.appclub-btn {
+#appclub-heading h1{
+  /* margin: auto; */
+  width: fit-content;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .25s;
+  
+}
+#appclub-heading h1:hover{
+  letter-spacing: 15px;
+}
+
+/* .appclub-btn {
   padding: 20px;
   margin: auto;
   margin-top: 50px;
@@ -3057,22 +3084,64 @@ p,
   font-weight: 900;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.35);
   border-radius: 0px;
+} */
+.appclub-btn{
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: crimson;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  padding: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.appclub-btn::after{
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+.appclub-btn:hover{
+  padding-right: 30px;
+  padding-left:18px;
+  color: white;
 }
 
-.appclub-btn:hover {
-  background-color: #e7390e;
+.appclub-btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+/* .appclub-btn:hover {
+  background-color: crimson;
   color: #fff;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
+} */
   /*	transform:scale(1.3,1.3);
     -webkit-transform:scale(1.3,1.3);
     -moz-transform:scale(1.3,1.3);*/
-}
+
 
 .ti-angle-right:before {
   content: " >>";
 }
+
+@media (max-width: 576px) {
+  #appclub-heading h1{
+    float: right;
+  }
+}
+
 
 /*=============================
 	End App Club Logo CSS
@@ -3673,8 +3742,9 @@ h1 {
   flex-direction: row-reverse;
 }
 .about-lab p{
-  line-height: 1.5;
+  line-height: 1.7;
 }
+
 
 .detail-box{
   box-shadow: 0 3px 10px rgb(128 128 128/ 0.2);
