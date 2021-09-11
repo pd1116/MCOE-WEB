@@ -47,7 +47,7 @@
     <!--<link rel="stylesheet" href="css/color/color7.css">-->
     <!--<link rel="stylesheet" href="css/color/color8.css">-->
     <link rel="stylesheet" href="#" id="colors">
-</head>
+    <!-- MDBootstrap Datatables  -->
 
 <body>
 
@@ -175,10 +175,9 @@
         <div class="container">
 
             <div id="clubs-heading">
-                <img src="images/Untitled design (4).png" height="50px" width="70px">
-                <h1 style=" font-size: xx-large; " >Pix Insight Club</h1>
-            
-                <img src="images/Untitled design (4).png" height="50px" width="70px">
+                <img src="images/app-club1.jpg" height="80px" width="80px">
+                <h1 style="text-align: center; font-size: xx-large">ITSA</h1>
+                <img src="images/app-club1.jpg" height="80px" width="80px">
 
             </div>
             <iframe src="images/library.jpg" frameborder="5" width="100%" height="300px" scrolling="no"></iframe>
@@ -187,19 +186,15 @@
 
                     <div class="about-text1" id="aboutClubs">
 
-                        <h3>ABOUT PIX INSIGHT CLUB</h3>
-<h6><i class="fa fa-quote-left"> </i> Explore and experiment beauty of GOD's Creation through
-    art work</h6>
-                        <p>Pix Insight with a name "Art & Photography Club" for all students of PES Modern college of
-                            Engg. .The club provides a platform for students to express their hobbies in Art and
-                            photography. The club is inaugurated by honorable Principal Mrs.K.R.Joshi madam,
-                            Vice-principal Mrs.Itkar Madam, Mrs.S.D.Deshpande HOD IT and in presence of all staff member
-                            and students dated on 27Th Aug.2015.Art & Photography club includes hobbies like Art &
-                            Photography. After successful organization of Art & photography exhibition, Accessibility of
-                            reading room from central library is provided for art exhibition, competition and workshop
-                            related to this club, has the facilities for students to design and construct various types
-                            of Art & Photographic techniques.</p>
-                        
+                        <h3>ABOUT ITSA</h3>
+
+                        <p>Department of Information Technology of Modern College of Engineering Pune-05 unveiled APP
+                            CLUB under Information Technology Student Association (ITSA) from year 2015. This APP Club
+                            was inaugurated on Engineer’s Day Wednesday, 15/09/2015 by Mr. Rahul Gurjar (working as a
+                            Sr. Program Manager at TCL Pvt.Ltd) in the presence of HOD Prof. (Mrs.) S.D.Deshpande, ITSA
+                            Coordinator Mrs. Bhawana Chaudhary and all faculty of IT department in I.T. Seminar hall.
+                        </p>
+
                         <p>This club consists of faculties and students who truly care about the creation of new ideas
                             through the use of software development. We facilitate this by teaching each other through
                             workshops and training. We're an open source community, and to us, that means that we accept
@@ -243,20 +238,20 @@
             <h3>Summary Table</h3>
             <table id="dtBasicExample" class="table table-striped table-bordered  cellspacing=" 0" width="100%">
                 <thead>
-                    <tr>
-                        <th class="th-sm">Sr. No.
-    
-                        </th>
-                        <th class="th-sm">Date
-    
-                        </th>
-                        <th class="th-sm">Name of the Activity
-    
-                        </th>
-                        <th class="th-sm">Report
-    
-                        </th>
-                    </tr>
+                <tr>
+                    <th class="th-sm">Sr. No.
+                
+                    </th>
+                    <th class="th-sm">Date
+                
+                    </th>
+                    <th class="th-sm">Name of the Activity
+                
+                    </th>
+                    <th class="th-sm">Report
+                
+                    </th>
+                </tr>
                 </thead>
                 <tbody>
                     <tr>
@@ -265,63 +260,63 @@
                         <td>Edinburgh</td>
                         <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>2</td>
                         <td>Accountant</td>
                         <td>Tokyo</td>
                         <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>3</td>
                         <td>Junior Technical Author</td>
                         <td>San Francisco</td>
                         <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>4</td>
                         <td>Senior Javascript Developer</td>
                         <td>Edinburgh</td>
                         <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>5</td>
                         <td>Accountant</td>
                         <td>Tokyo</td>
                         <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>6</td>
                         <td>Integration Specialist</td>
                         <td>New York</td>
-                        <td>PDF</td>                     
+                        <td>PDF</td>
                     </tr>
-                    
+                
                     <tr>
                         <td>7</td>
                         <td>Sales Assistant</td>
                         <td>San Francisco</td>
-                        <td>PDF</td>  
+                        <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>8</td>
                         <td>Integration Specialist</td>
                         <td>Tokyo</td>
-                        <td>PDF</td>  
+                        <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>9</td>
                         <td>Javascript Developer</td>
                         <td>San Francisco</td>
-                        <td>PDF</td>   
+                        <td>PDF</td>
                     </tr>
-
+                
                     <tr>
                         <td>10</td>
                         <td>Software Engineer</td>
@@ -329,7 +324,6 @@
                         <td>PDF</td>
                     </tr>
 
-                    
                 </tbody>
                 <!-- <tfoot>
                     <tr>
@@ -468,8 +462,9 @@
         <!--/ End Footer Bottom -->
     </footer>
     <!--/ End Footer -->
-
     <!-- Jquery JS-->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="js/addons/datatables.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate.min.js"></script>
     <!-- Popper JS-->
@@ -508,11 +503,15 @@
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
     <script src="js/gmaps.min.js"></script>
     <!-- Main JS-->
+    <script>$(document).ready(function () {
+            $('#dtBasicExample').DataTable();
+            $('.dataTables_length').addClass('bs-select');
+        });</script>
     <script src="js/main.js"></script>
+
+
 </body>
 
 <!-- Mirrored from themelamp.com/html/learnedu/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Aug 2019 08:00:12 GMT -->
 
 </html>
-
-
