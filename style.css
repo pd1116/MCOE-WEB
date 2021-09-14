@@ -41,19 +41,8 @@ Version:	1.0
 /*===============================
 	Header CSS 
 =================================*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
-* {
-  font-size: 16px;
-}
-@media (max-width: 576px) {
-  * {
-    font-size: 14px;
-  }
-  p {
-    font-size: 14px;
-  }
-}
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
 .header {
   background-color: #fff;
 }
@@ -211,8 +200,7 @@ Version:	1.0
   text-shadow: none;
 }
 
-.header .nav li:hover a,
-.header .nav li.active a {
+.header .nav li:hover a, .header .nav li.active a {
   color: #fff;
 }
 
@@ -593,8 +581,7 @@ Version:	1.0
   padding: 0;
 }
 
-.enroll .form-group input:hover,
-.enroll .form-group textarea:hover {
+.enroll .form-group input:hover, .enroll .form-group textarea:hover {
   padding-left: 15px;
 }
 
@@ -642,8 +629,7 @@ Version:	1.0
   font-size: 32px;
 }
 
-.enroll .section-title h2:before,
-.enroll .section-title h2:after {
+.enroll .section-title h2:before, .enroll .section-title h2:after {
   display: none;
 }
 
@@ -922,8 +908,7 @@ Version:	1.0
   color: #252525;
 }
 
-.courses.archives .pagination li:hover a,
-.courses.archives .pagination li.active a {
+.courses.archives .pagination li:hover a, .courses.archives .pagination li.active a {
   color: #fff;
 }
 
@@ -1244,9 +1229,7 @@ Version:	1.0
   padding: 10px;
 }
 
-.filter li a:hover,
-.filter li a:focus,
-.filter li a.active {
+.filter li a:hover, .filter li a:focus, .filter li a.active {
   background-color: rgb(231, 57, 14);
   color: #fff;
   border-radius: 5px;
@@ -1312,8 +1295,7 @@ Version:	1.0
   right: 10px;
 }
 
-.team .single-team:hover .team-hover,
-.team .single-team.active .team-hover {
+.team .single-team:hover .team-hover, .team .single-team.active .team-hover {
   transform: scale(1);
   opacity: 1;
   visibility: visible;
@@ -1481,8 +1463,7 @@ Version:	1.0
   padding: 60px 0 90px;
 }
 
-.team-details .member-detail,
-.team-details .detail-content {
+.team-details .member-detail, .team-details .detail-content {
   margin-top: 30px;
 }
 
@@ -1602,8 +1583,7 @@ Version:	1.0
   background-repeat: no-repeat;
 }
 
-.testimonials .section-title h2,
-.testimonials .section-title p {
+.testimonials .section-title h2, .testimonials .section-title p {
   color: #fff;
 }
 
@@ -1643,8 +1623,7 @@ Version:	1.0
   margin: 35px 0;
 }
 
-.testimonials .main-content:before,
-.testimonials .main-content:after {
+.testimonials .main-content:before, .testimonials .main-content:after {
   position: absolute;
   font-family: "FontAwesome";
   font-size: 32px;
@@ -1727,12 +1706,12 @@ Version:	1.0
 
 #placed-placement {
   background-image: url(images/placed_bg.jpg);
-  height: 900px;
+  height: 950px;
 }
 
-#placed-card {
+/* #placed-card {
   top: 60px;
-}
+} */
 
 /*=============================
 	End Testimonials CSS
@@ -2091,8 +2070,7 @@ Version:	1.0
   color: #252525;
 }
 
-.blog.b-archives .pagination li:hover a,
-.blog.b-archives .pagination li.active a {
+.blog.b-archives .pagination li:hover a, .blog.b-archives .pagination li.active a {
   color: #fff;
 }
 
@@ -2283,8 +2261,7 @@ Version:	1.0
   border: 1px solid #e7e7e7;
 }
 
-.blog.b-archives.single .form-group input:hover,
-.blog.b-archives.single .form-group textarea:hover {
+.blog.b-archives.single .form-group input:hover, .blog.b-archives.single .form-group textarea:hover {
   padding-left: 25px;
 }
 
@@ -2561,8 +2538,7 @@ Version:	1.0
   justify-content: center;
 }
 
-#cssmenu,
-#cssmenu {
+#cssmenu, #cssmenu {
   margin: 0;
   padding: 10px;
   border: 0;
@@ -2575,9 +2551,7 @@ Version:	1.0
   width: 300px;
 }
 
-a,
-#cssmenu li,
-#cssmenu ul {
+a, #cssmenu li, #cssmenu ul {
   margin: 0;
   padding: 5px;
   border: 0;
@@ -2612,37 +2586,35 @@ a,
   background: #f8f1ee;
 }
 
-#cssmenu > ul > li {
+#cssmenu>ul>li {
   cursor: pointer;
   border-bottom: 1px solid #ccc;
 }
 
-#cssmenu > ul > li:default {
+#cssmenu>ul>li:default {
   border-bottom: 0 solid #3e3d3c;
 }
 
-#cssmenu > ul > li > a {
+#cssmenu>ul>li>a {
   display: block;
   color: crimson;
   outline: 0;
   padding: 10px;
 }
 
-#cssmenu > ul > li > a:active,
-#cssmenu > ul > li > a:focus,
-#cssmenu > ul > li > a:hover {
+#cssmenu>ul>li>a:active, #cssmenu>ul>li>a:focus, #cssmenu>ul>li>a:hover {
   background: rgb(231, 57, 14);
   color: #fff;
 }
 
-#cssmenu > ul > li > ul > li > ul > li > a {
+#cssmenu>ul>li>ul>li>ul>li>a {
   font-size: 12px;
   display: block;
   color: #fff;
   outline: 0;
 }
 
-#cssmenu > ul > li > ul > li > ul > li > a i {
+#cssmenu>ul>li>ul>li>ul>li>a i {
   color: #fff;
 }
 
@@ -2655,21 +2627,20 @@ a,
   display: block !important;
 }
 
-#cssmenu ul > li a.menuAct,
-#cssmenu ul > li a:hover {
+#cssmenu ul>li a.menuAct, #cssmenu ul>li a:hover {
   background: crimson;
 }
 
-#cssmenu > ul > li a {
+#cssmenu>ul>li a {
   padding: 10px;
 }
 
-#cssmenu > ul > li.active a {
+#cssmenu>ul>li.active a {
   color: #fff;
   background: rgb(231, 57, 14);
 }
 
-#cssmenu > ul > li.has-sub > a:after {
+#cssmenu>ul>li.has-sub>a:after {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -2677,7 +2648,7 @@ a,
   border-left: 5px solid #fff;
 }
 
-#cssmenu > ul > li.has-sub.active > a:after {
+#cssmenu>ul>li.has-sub.active>a:after {
   right: 14px;
   top: 12px;
   border: 5px solid transparent;
@@ -2735,6 +2706,7 @@ a,
   height: 2px;
   margin-bottom: 1rem;
 }
+
 p {
   line-height: 2.3;
   margin: 10px;
@@ -2748,14 +2720,13 @@ p {
 /* .hed06{
   background:transparent;
 } */
+
 #bullets {
   margin-right: 5px;
   color: crimson;
 }
-.mission,
-.vision,
-p,
-.points {
+
+.mission, .vision, p, .points {
   text-align: start;
   margin-left: 10px;
   color: #000;
@@ -3041,10 +3012,7 @@ p,
   box-shadow: rgb(80, 0, 33) inset 5px 5px 20px;
 }
 
-.mission,
-.vision,
-p,
-.points {
+.mission, .vision, p, .points {
   text-align: start;
   margin-left: 10px;
   color: #000;
@@ -3060,7 +3028,7 @@ p,
   position: relative;
 }
 
-#aboutClubs h3::before{
+#aboutClubs h3::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -3083,11 +3051,11 @@ p,
   transform-origin: center;
 }
 
-#aboutClubs h3:hover::after,
-#aboutClubs h3:focus::after {
-  width: 100%; 
-  left: 0; 
+#aboutClubs h3:hover::after, #aboutClubs h3:focus::after {
+  width: 100%;
+  left: 0;
 }
+
 #club-logo img {
   width: 400px;
   height: 300px;
@@ -3101,6 +3069,7 @@ p,
   margin-top: 5%;
   margin-left: 30%;
 }
+
 #clubs-heading {
   margin-bottom: 30px;
   display: flex;
@@ -3120,6 +3089,7 @@ p,
   letter-spacing: 2px;
   transition: all 0.25s;
 }
+
 #clubs-heading h1:hover {
   letter-spacing: 15px;
 }
@@ -3141,6 +3111,7 @@ p,
   position: relative;
   transition: 0.5s;
 }
+
 .appclub-btn::after {
   content: "»";
   position: absolute;
@@ -3149,6 +3120,7 @@ p,
   right: -20px;
   transition: 0.5s;
 }
+
 .appclub-btn:hover {
   padding-right: 30px;
   padding-left: 18px;
@@ -3437,8 +3409,7 @@ h1 {
   font-size: 15px;
 }
 
-.contact .form-head .form-group input:hover,
-.contact .form-head .form-group textarea:hover {
+.contact .form-head .form-group input:hover, .contact .form-head .form-group textarea:hover {
   padding-left: 25px;
 }
 
@@ -3548,8 +3519,7 @@ h1 {
   opacity: 0.9;
 }
 
-.footer a,
-.footer p {
+.footer a, .footer p {
   color: #eee;
   font-weight: 400;
 }
@@ -3753,22 +3723,25 @@ h1 {
 ===============================*/
 
 /*  Infrastructure Start  */
+
 #infra-section {
   padding: 70px 0px;
 }
+
 .single-image {
   height: fit-content;
 }
+
 #iframe {
   text-align: center;
-  padding: 30px;
 }
-#labs,
-#labs1 {
+
+#labs, #labs1 {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
 }
+
 .about-lab p {
   line-height: 1.7;
 }
@@ -3783,4 +3756,5 @@ h1 {
   padding-right: 20px;
   padding-top: 20px;
 }
+
 /*  Infrastructure End  */

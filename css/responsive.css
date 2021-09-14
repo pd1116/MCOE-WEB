@@ -239,6 +239,10 @@
 	#placed-card {
 		top: 8px;
 	}
+	.place-table {
+		display: flex;
+		justify-content: center;
+	}
 	.testimonials:before {
 		display: none;
 	}
@@ -370,22 +374,20 @@
 	}
 }
 
-
 /* Infrastructure Start */
 
 @media (max-width:576px) {
-	
-#labs1{
-	flex-direction: column-reverse;
-}
-}
-@media (max-width: 768px) {
-	
-#labs1{
-	flex-direction: column-reverse;
+	#labs1 {
+		flex-direction: column-reverse;
+	}
 }
 
+@media (max-width: 768px) {
+	#labs1 {
+		flex-direction: column-reverse;
+	}
 }
+
 /* @media (max-width: 991px) {
 	
 .about-lab p{
