@@ -233,12 +233,35 @@
 	</section>
 	<!--/ End Slider Area -->
 
+	<!-- Admissionn button -->
+	<div class="admin-btn">
+		<a class="admission-btn">Apply for Admission</a>
+	</div>
+	<!-- Admissionn button -->
+
+
+	<div class="nanda container mt-5 mb-5">
+		<h2 class="text-center ">News and <span>Anouncements</span></h2>
+		<div class="big-container mt-5 justify-content-around row ">
+			<div class="anouncements col-md-11  mb-5">
+				<ul class=" text-center mt-4 ">
+					<marquee direction="right">
+						<li class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+					</marquee>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--End News and anouncements  -->
 	<!-- Features -->
-	<section class="our-features section">
+	<section style="padding: 20px 0px;" class="our-features section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<div class="section-title">
+					<div class="section-title" style="margin-bottom: 0px;">
 						<h2>About <span>IT </span> Department</h2>
 						<p></p>
 					</div>
@@ -305,28 +328,6 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="col-md-4 col-sm-12">
-					<div class="">
-						<!-- Single Testimonial -->
-						<div class="single-testimonial">
-							<img src="slides/hod.png" alt="#">
-							<div class="main-content" >
-								<br>
-								<h6 class="name">Prof. Mrs. Sarita Deshpande <br>(HOD IT Department)</h6>
-								<p style="line-height: 2;">Engineers are not born, they are made. We are indeed living in in-formation
-									technology (IT) age. Our commitment to the students is that they will definitely
-									honour two words “INFORMATION” with “TECHNOLOGY”. Department’s primary objective
-									is
-									to ensure good academic environment for all the students. With bright academic,
-									students can excel with excellence in their professional career. Department is
-									carrying out number of activities which will shape the professional career of
-									the
-									student as a technocrat/techno manager. </p>
-							</div>
-						</div>
-
-					</div>
-				</div>
 				<div class="col-md-4 col-sm-12 ">
 					<div class="">
 						<!-- Single Testimonial -->
@@ -335,13 +336,22 @@
 							<div class="main-content">
 								<br>
 								<h6 class="name">Prof. Dr. Gajanan R. Ekbote <br>(Chairman)</h6>
-								<p style="line-height: 2;">Progressive Education Society was established by late Shankarraoji Kanitkar and his 5 teacher colleagues in 1934 on
-								auspicious day of "Akshay Tritiya". The Key words in the history of Progressive Education Society are "Progressive" and
-								"Modern".
-								
-								Modern College of Engineering was started in 1999. The fee structure of Modern College of Engineering is well within the
-								reach of poor and middle class students. Our mission is to develop competent, committed and compassionate leaders. 
+								<p style="line-height: 2;">Progressive Education Society was established by late
+									Shankarraoji Kanitkar and his 5 teacher colleagues in 1934 on
+									auspicious day of "Akshay Tritiya". The Key words in the history of Progressive
+									Education Society are "Progressive" and
+									"Modern".
+
+									Modern College of Engineering was started... <span id="init_text1"></span><span
+										id="readmore1">in 1999.
+										The fee
+										structure of Modern
+										College of Engineering is well within the
+										reach of poor and middle class students. Our mission is to develop competent,
+										committed and compassionate leaders.</span>
+
 								</p>
+								<button onclick="Readmore1()" id="myBtn1">Read more</button>
 							</div>
 						</div>
 
@@ -355,17 +365,58 @@
 							<div class="main-content">
 								<br>
 								<h6 class="name">Dr. (Mrs.) K. R. Joshi<br>(Principal)</h6>
-								<p style="line-height: 2;">You are getting your education in an institution where there is healthy atmosphere for your overall development and many
-								good things that shall help you in your future and this is only because of co-operative culture of students, teachers,
-								faculty members and the management of institution.
-								
-								The aim of this institute is to develop not just top quality engineers but also well developed persons. Our motto
-								therefore is "the joy of excellence in a world of high technology".Extracurricular activities organized during the year.</p>
+								<p style="line-height: 2;">You are getting your education in an institution where there
+									is healthy atmosphere for your overall development and many
+									good things that shall help you in your future and this is only because of
+									co-operative culture of students, teachers,
+									faculty members and the management of institution...<span id="init_text2"></span>
+
+									<span id="readmore2"> The aim of this institute is to develop not just top
+										quality
+										engineers but
+										also well
+										developed persons. Our motto
+										therefore is "the joy of excellence in a world of high
+										technology".Extracurricular
+										activities organized during the year.</span>
+								</p>
+								<button onclick="Readmore2()" id="myBtn2">Read more</button>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="">
+						<!-- Single Testimonial -->
+						<div class="single-testimonial">
+							<img src="slides/hod.png" alt="#">
+							<div class="main-content">
+								<br>
+								<h6 class="name">Prof. Mrs. Sarita Deshpande <br>(HOD IT Department)</h6>
+								<p style="line-height: 2;">Engineers are not born, they are made. We are indeed living
+									in in-formation
+									technology (IT) age. Our commitment to the students is that they will definitely
+									honour two words “INFORMATION” with “TECHNOLOGY”. Department’s primary objective
+									is
+									to ensure good academic environment for all the students... <span
+										id="init_text3"></span><span id="readmore3">With bright academic,
+										students can excel with excellence in their professional career. Department is
+										carrying out number of activities which will shape the professional career of
+										the
+										student as a technocrat/techno manager.</span> </p>
+								<button class="hvr-grow" onclick="Readmore3()" id="myBtn3">Read more</button>
+
 							</div>
 						</div>
 
 					</div>
 				</div>
+
+
+
 			</div>
 		</div>
 
@@ -472,9 +523,7 @@
 							</div>
 							<div class="blog-content">
 								<h4 class="blog-title"><a href="blog-single.html">Bitwise Campus Drive</a></h4>
-								<div class="blog-info">
 
-								</div>
 								<p>Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim. Et
 									harum quidem rerum facilis est et expedita distinctio</p>
 								<div class="button">
@@ -491,10 +540,10 @@
 								<img src="slides/ach1.jpg" alt="#">
 							</div>
 							<div class="blog-content">
-								<h4 class="blog-title"><a href="blog-single.html">Poster Painting Competition</a></h4>
-								<div class="blog-info">
+								<h4 class="blog-title">
+									<a href="blog-single.html">Poster Painting Competition</a>
+								</h4>
 
-								</div>
 								<p>Ms. Nikita D. Kolambe won first price in Poster Painting Competition held on 10
 									August, 2019 at IT Dept.</p>
 								<div class="button">
@@ -512,10 +561,8 @@
 							</div>
 							<div class="blog-content">
 								<h4 class="blog-title"><a href="blog-single.html">Session on Web Development</a></h4>
-								<div class="blog-info">
 
-								</div>
-								<p>A student organized session on web development technologies under IT-Departments
+								<p>Session was organised on web development technologies under IT-Departments
 									appclub held on 08 August, 2019.</p>
 								<div class="button">
 									<a href="blog-single.html" class="btn">Read More<i
@@ -541,37 +588,7 @@
 	<!--Start News and anouncements  -->
 
 
-	<div class="nanda container mt-5 mb-5">
-		<h2 class="text-center ">News and <span>Anouncements</span></h2>
-		<div class="big-container mt-5 justify-content-around row ">
-			<div class="anouncements col-md-11  mb-5">
 
-
-				<ul class=" text-center mt-4 ">
-					<marquee direction="right">
-						<li class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-					</marquee>
-
-					<!-- <marquee direction="right">
-						<li> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-					</marquee>
-					<hr>
-					<marquee direction="right">
-						<li> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-					</marquee>
-					<hr> -->
-
-				</ul>
-
-
-			</div>
-
-		</div>
-	</div>
-
-
-
-	<!--End News and anouncements  -->
 
 
 
@@ -746,6 +763,7 @@
 	<script src="js/gmaps.min.js"></script>
 	<!-- Main JS-->
 	<script src="js/main.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 
 </html>
