@@ -239,6 +239,11 @@
 	#placed-card {
 		top: 8px;
 	}
+	.admission-btn {
+		padding: 5px;
+		margin: 10px 50px;
+		font-size: 14px;
+	}
 	.place-table {
 		display: flex;
 		justify-content: center;
