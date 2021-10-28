@@ -3372,6 +3372,16 @@ h1 {
 	End 404 CSS
 ===============================*/
 
+/* Alumini */
+
+.reg-alumini button {
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Alumini */
+
 /*=============================
 	Contact CSS
 ===============================*/
@@ -3381,7 +3391,7 @@ h1 {
 }
 
 .contact .contact-info {
-  text-align: left;
+  text-align: center;
   margin-top: 30px;
   position: relative;
   padding: 30px 100px;
