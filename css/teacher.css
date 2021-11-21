@@ -12,6 +12,7 @@ padding-top: 20px;
     margin-top: 50px;
 }
 .head4{
+    padding-bottom: 10px;
     text-align: center;
 }
 .img-responsive{
@@ -29,6 +30,7 @@ background-position: center;
 }
 .faculty-name{
     font-weight: 500;
+    padding-top: 20px;
 }
 .designation{
     font-weight: 400;

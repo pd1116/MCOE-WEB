@@ -804,7 +804,7 @@ Version:	1.0
   border-bottom: 0.5px solid #cecece;
 }
 .admin-btn a {
-   color: black !important;
+  color: black !important;
 }
 
 .admission-btn {
@@ -2536,7 +2536,7 @@ Version:	1.0
 }
 
 .learnedu-sidebar .single-widget.categories ul li a:hover {
-  color: #00b069;
+  color: crimson;
 }
 
 .learnedu-sidebar .single-widget.categories ul li a span {
@@ -3034,7 +3034,14 @@ p,
   margin-top: 5px;
   font-size: 15px;
 }
-
+#imgContainer img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  object-fit:fill;
+}
 @media (min-width: 576px) {
   #menubar {
     justify-content: center;
