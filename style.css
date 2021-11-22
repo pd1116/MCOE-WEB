@@ -192,7 +192,7 @@ Version:	1.0
 
 .header .nav li a {
   color: #252525;
-  font-size: 14px;
+  font-size: 13.5px;
   text-transform: uppercase;
   padding: 20px;
   display: block;
@@ -819,6 +819,14 @@ Version:	1.0
   color: crimson !important;
   text-decoration: underline !important;
 }
+/* Student Achievemnent Start */
+
+/* #SaContainer {
+  margin-top: 30px;
+  margin-bottom: 100px;
+} */
+
+/* Student Achievement  End */
 
 /* Admission */
 
@@ -1849,6 +1857,10 @@ Version:	1.0
   box-shadow: none;
 }
 
+.placement {
+  padding-top: 0px;
+}
+
 #placed {
   background-image: url(images/placed_bg.jpg);
   height: 600px;
@@ -1865,6 +1877,22 @@ Version:	1.0
 
 /*=============================
 	End Testimonials CSS
+===============================*/
+/*=============================
+	Library start 
+===============================*/
+
+#LibContainer {
+  /* padding-top: 30px; */
+  padding-bottom: 30px;
+}
+
+#LibContainer .row{
+padding-top: 50px;
+}
+
+/*=============================
+	Library End
 ===============================*/
 
 /*=============================
@@ -2841,10 +2869,7 @@ a,
   list-style: none;
 }
 
-.about-us {
-  background: #fff;
-  padding: 60px 0 80px;
-}
+
 
 #abt-ins {
   padding-bottom: 0px;
@@ -3034,13 +3059,17 @@ p,
   margin-top: 5px;
   font-size: 15px;
 }
-#imgContainer img{
+#imgContainer {
+  background: #eee;
+  border: 3px solid #ccc;
+}
+#imgContainer img {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 70vh;
   width: 100%;
   background-size: cover;
-  object-fit:fill;
+  object-fit: fill;
 }
 @media (min-width: 576px) {
   #menubar {
